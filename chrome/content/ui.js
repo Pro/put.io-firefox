@@ -90,6 +90,7 @@ PutIO.UI = {
   _putioContextMenupopupShowHidden: function(event) {
     let foundAnchorElement = gContextMenu.onLink;
     document.getElementById("putioContextMenupopupSaveLink").hidden          = !foundAnchorElement;
+    document.getElementById("putioContextMenupopupSaveLinkDirect").hidden    = !foundAnchorElement;
     document.getElementById("putioContextMenupopupSaveLinkSeparator").hidden = !foundAnchorElement;
   },
 	/* END Functions for hiding the contextual menu items */
@@ -100,6 +101,10 @@ PutIO.UI = {
 
     this._instantApply = Application.prefs.get("browser.preferences.instantApply");
 
+	document.getElementById("putioContextMenupopupSaveLinkDirect").addEventListener("command", function () {
+	  PutIO.BrowserOverlay.saveLink();
+	}, true);
+	
     // Save Link from the contextual menu item
 		document.getElementById("putioContextMenupopupSaveLink").addEventListener("command", function () {
 		  PutIO.BrowserOverlay.saveLink();
