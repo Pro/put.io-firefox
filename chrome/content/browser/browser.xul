@@ -15,7 +15,7 @@
 
 	<menupopup id="contentAreaContextMenu">
 	
-  	<menu id="putioContextMenu" label="&contextmenu.menu.label;" class="menu-iconic_putio" insertafter="context-sep-selectall,context-savelink">
+  	<menu id="putioContextMenu" label="&contextmenu.menu.label;" class="menu-iconic" insertafter="context-sep-selectall,context-savelink">
   		<menupopup id="putioContextMenupopup">
     		<menuitem id="putioContextMenupopupSaveLink" label="&contextmenu.menupopup.saveLink.label;" default="true"/>
     		<menuseparator id="putioContextMenupopupSaveLinkSeparator"/>
@@ -26,12 +26,12 @@
     		<menuitem id="putioContextMenupopupAbout" label="&contextmenu.menupopup.about.label;"/>
   		</menupopup>
   	</menu>
-	<menuitem id="putioContextMenupopupSaveLinkDirect" class="menu-iconic_putio" label="&contextmenu.menupopup.saveLinkDirect.label;" insertafter="context-sep-selectall,context-savelink"/>
+	<menuitem id="putioContextMenupopupSaveLinkDirect" class="menu-iconic" label="&contextmenu.menupopup.saveLinkDirect.label;" insertafter="context-sep-selectall,context-savelink"/>
 	</menupopup>
 
   <!-- Tools menu option: Firefox -->
 	<menupopup id="menu_ToolsPopup">
-  	<menu id="putioToolsMenu" label="&tools.menu.label;" class="menu-iconic_putio" insertbefore="webDeveloperMenu">
+  	<menu id="putioToolsMenu" label="&tools.menu.label;" class="menu-iconic" insertbefore="webDeveloperMenu">
   		<menupopup id="putioToolsMenupopup">
   			<menuitem id="putioToolsMenupopupPreferences" label="&tools.menupopup.preferences.label;"/>
     		<menuseparator/>
