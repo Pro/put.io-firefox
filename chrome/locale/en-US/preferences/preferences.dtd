@@ -1,0 +1,12 @@
+<!ENTITY preferences.title                                        "Put.io Preferences"                              >
+
+<!ENTITY preferences.api_integration.label                        "API Integration"                                 >
+<!ENTITY preferences.api_integration.caption.api                  "API access token"                              >
+<!ENTITY preferences.api_integration.instruction.api              "Enter your Put.io Access Token. Get it here:"           >
+<!ENTITY preferences.api_integration.label.token                  "Access Token"                                         >
+<!ENTITY preferences.api_integration.description.putioNoAccount   "Don't have a Put.io account?"                    >
+<!ENTITY preferences.api_integration.description.putioRegister    "Sign up with Put.io."                            >
+<!ENTITY preferences.additional.label                        	  "Additional settings"                                 >
+<!ENTITY preferences.additional.description                       "Default download folder:"                                 >
+<!ENTITY preferences.additional.description.id                       "Get folder ID"                                 >
+<!ENTITY preferences.additional.label.downloadFolder               "Folder ID"                                 >
