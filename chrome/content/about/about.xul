@@ -21,7 +21,7 @@
         <spacer flex="1"/>     	
         <text value="&about.version.text;"/>
         <text value=" "/>
-        <text value="1.0.5-20120304"/>
+        <text value="1.0.2"/>
         <spacer flex="1"/>     	
       </hbox>
     </vbox>
@@ -40,7 +40,7 @@
       <hbox>
         <text value="&about.creator.text;" class="boldText"/>
         <text value=": " class="boldText"/>
-        <text value="Pro BC"/>
+        <text value="Pro"/>
         <spacer flex="1"/>     	
       </hbox>
       <spacer class="vBigGap"/>
