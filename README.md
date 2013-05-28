@@ -10,7 +10,9 @@ Install: https://addons.mozilla.org/de/firefox/addon/putio-v2/
 
 This addon adds an additional context menu entry (right click menu) to access and directly download a url to put.io.
 
-== Put.IO Script ==
+Put.IO Script
+_____________
+
 The following script may also be interesting for you:
 
 https://github.com/arrizer/PutIO-Perl-folder-sync
