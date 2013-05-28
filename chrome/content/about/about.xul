@@ -32,7 +32,7 @@
       </description>
       <spacer class="vBigGap"/>
       <description>
-  		  <html:a href="https://github.com/yuhui/Put.io-add-on-for-Firefox/wiki" class="htmlLink" target="_blank">
+  		  <html:a href="https://github.com/Pro/put.io-firefox" class="htmlLink" target="_blank">
   		    &about.homepage;
   		  </html:a>
       </description>
@@ -40,7 +40,7 @@
       <hbox>
         <text value="&about.creator.text;" class="boldText"/>
         <text value=": " class="boldText"/>
-        <text value="Yuhui BC"/>
+        <text value="Pro BC"/>
         <spacer flex="1"/>     	
       </hbox>
       <spacer class="vBigGap"/>

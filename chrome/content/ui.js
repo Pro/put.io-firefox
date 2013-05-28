@@ -179,7 +179,7 @@ PutIO.UI = {
   },
 
   openHelp : function() {
-	  this._openAndReuseOneTab("https://github.com/yuhui/Put.io-add-on-for-Firefox/wiki/Help");
+	  this._openAndReuseOneTab("https://github.com/Pro/put.io-firefox");
   },
 
   addNotification : function(notificationWindow, labelWithArgv, value, priority, buttons) {
