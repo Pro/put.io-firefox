@@ -10,8 +10,9 @@ Install: https://addons.mozilla.org/de/firefox/addon/putio-v2/
 
 This addon adds an additional context menu entry (right click menu) to access and directly download a url to put.io.
 
-Put.IO Script
 _____________
+Put.IO Script:
+
 
 The following script may also be interesting for you:
 
