@@ -8,7 +8,7 @@
                    em:maxVersion="12.*" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="put.io-firefox@github.com"
-                   em:name="Put.io"
+                   em:name="Put.io V2"
                    em:version="1.0.1"
                    em:creator="Pro"
                    em:type="2"
