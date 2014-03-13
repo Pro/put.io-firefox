@@ -1,0 +1,50 @@
+{
+    "name": "putio_v2",
+    "title": "Put.io",
+    "id": "put.io-firefox@github.com",
+    "homepage": "https://github.com/Pro/put.io-firefox",
+    "description": "Download links to Put.io via the contextual menu",
+    "author": "Pro",
+    "license": "GnuGPL 3.0",
+    "version": "2.0",
+    "icon": "data/images/icon48.png",
+    "icon64": "data/images/icon64.png",
+    "preferences": [
+        {
+            "type": "string",
+            "name": "auth_token",
+            "value": "",
+            "title": "Auth Token"
+        },
+        {
+            "type": "control",
+            "name": "auth_token_btn",
+            "label": "Gimme token",
+            "title": "Get Token"
+        },
+        {
+            "type": "string",
+            "name": "download_folder",
+            "value": "",
+            "title": "Download folder"
+        },
+        {
+            "type": "control",
+            "name": "download_folder_btn",
+            "label": "Set",
+            "title": "Download folder"
+        },
+        {
+            "type": "bool",
+            "name": "catch_magnet",
+            "value": true,
+            "title": "Catch magnet links"
+        },
+        {
+            "type": "bool",
+            "name": "catch_torrent",
+            "value": true,
+            "title": "Catch torrent links"
+        }
+    ]
+}
