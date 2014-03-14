@@ -11,7 +11,7 @@ The context menu allows additional put.io options.
 
 # Changelog
 
-* 14.03.2014:  
+* 14.03.2014 [2.0.0]:  
 	Reimplementation from scratch using new addon sdk.
 
 _____________
