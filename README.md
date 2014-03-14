@@ -9,6 +9,11 @@ If you click on a .torrent or magnet link, the file will be automatically added 
 
 The context menu allows additional put.io options.
 
+# Changelog
+
+* 14.03.2014:  
+	Reimplementation from scratch using new addon sdk.
+
 _____________
 Put.IO Script:
 
