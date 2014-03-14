@@ -25,7 +25,7 @@
         {
             "type": "string",
             "name": "download_folder",
-            "value": "",
+            "value": "0",
             "title": "Download folder"
         },
         {
