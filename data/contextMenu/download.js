@@ -10,8 +10,8 @@ self.on("context", function (node) {
  */
 self.on("click", function (node, data) {
     var title = node.title;
-    if (title === null || title.length === 0) {
-        title = node.innerText;
+    if (title === null || typeof title==="undefined" || title.length === 0) {
+        title = node.innerText || node.textContent;
     }
     self.postMessage({
         url : node.href,
