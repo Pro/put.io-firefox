@@ -1,4 +1,6 @@
-
+/**
+ * Style of "SET" button
+ */
 $("<style type='text/css'>"+
     " .firefoxAddonSet{ "+
         "color:#ffffff !important;"+
@@ -12,6 +14,38 @@ $("<style type='text/css'>"+
         "border-radius: 2px;"+
 "} </style>").appendTo("head");
 
+/**
+ * Create the SET button to add to the page
+ * @param id folder id
+ * @param name folder name
+ * @returns {*|jQuery|HTMLElement} the button to add
+ */
+var getSetButton = function(id, name) {
+    var btn = $('<a href="javascript:;" class="firefoxAddonSet">SET </a>');
+
+    btn.click(function() {
+        self.postMessage({
+            id : id,
+            name : name
+        });
+    });
+    return btn;
+};
+
+/**
+ * Add button to current folder
+ */
+$("#bc-folder-link").each(function(){
+    var elem = $(this);
+    var id = elem.attr("data-file-id");
+    var name = elem.text();
+    var btn = getSetButton(id, name);
+    elem.append(btn);
+});
+
+/**
+ * Folders are dynamically loaded. So add the SET button to any new directory entry
+ */
 setInterval(function(){
     $('.file-name a[href^="/your-files/"]').each(function() {
         var elem = $(this);
@@ -19,16 +53,6 @@ setInterval(function(){
             return;
         var id = elem.attr("href").substr("/your-files/".length);
         var name = elem.find(".fname").first().text();
-        var btn = $('<a href="javascript:;" class="firefoxAddonSet">SET </a>');
-
-        btn.click(function() {
-            self.postMessage({
-                id : id,
-                name : name
-            });
-        });
-        elem.append(btn);
+        elem.append(getSetButton(id, name));
     });
 },200);
-
-//self.postMessage(tokenTag.innerHTML);
