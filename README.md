@@ -11,6 +11,8 @@ The context menu allows additional put.io options.
 
 # Changelog
 
+* 16.03.2014 [2.0.1]:  
+	Added private browsing support
 * 14.03.2014 [2.0.0]:  
 	Reimplementation from scratch using new addon sdk.
 

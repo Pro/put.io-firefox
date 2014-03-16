@@ -6,9 +6,10 @@
     "description": "Download links to Put.io via the contextual menu",
     "author": "Pro",
     "license": "GnuGPL 3.0",
-    "version": "2.0",
+    "version": "2.0.1",
     "icon": "data/images/icon48.png",
     "icon64": "data/images/icon64.png",
+	"permissions": {"private-browsing": true},
     "preferences": [
         {
             "type": "string",
